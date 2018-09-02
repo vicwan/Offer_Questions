@@ -8,10 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0DC89E35213BC4E5006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E34213BC4E5006BE658 /* main.cpp */; };
+		0DC89E42213C0E81006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E41213C0E81006BE658 /* main.cpp */; };
+		0DC89E4D213C1CA9006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E4C213C1CA9006BE658 /* main.cpp */; };
+		0DC89E58213C2C16006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E57213C2C16006BE658 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0DC89E2F213BC4E5006BE658 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0DC89E3D213C0E81006BE658 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0DC89E48213C1CA9006BE658 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0DC89E53213C2C16006BE658 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +55,37 @@
 /* Begin PBXFileReference section */
 		0DC89E31213BC4E5006BE658 /* 剑指offer习题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指offer习题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC89E34213BC4E5006BE658 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0DC89E3F213C0E81006BE658 /* 面3-数组中重复数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面3-数组中重复数字"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC89E41213C0E81006BE658 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0DC89E4A213C1CA9006BE658 /* 面4-二维数组中的查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面4-二维数组中的查找"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC89E4C213C1CA9006BE658 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0DC89E55213C2C16006BE658 /* 面5-替换空格 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面5-替换空格"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC89E57213C2C16006BE658 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0DC89E2E213BC4E5006BE658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC89E3C213C0E81006BE658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC89E47213C1CA9006BE658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC89E52213C2C16006BE658 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				0DC89E33213BC4E5006BE658 /* 剑指offer习题 */,
+				0DC89E40213C0E81006BE658 /* 面3-数组中重复数字 */,
+				0DC89E4B213C1CA9006BE658 /* 面4-二维数组中的查找 */,
+				0DC89E56213C2C16006BE658 /* 面5-替换空格 */,
 				0DC89E32213BC4E5006BE658 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				0DC89E31213BC4E5006BE658 /* 剑指offer习题 */,
+				0DC89E3F213C0E81006BE658 /* 面3-数组中重复数字 */,
+				0DC89E4A213C1CA9006BE658 /* 面4-二维数组中的查找 */,
+				0DC89E55213C2C16006BE658 /* 面5-替换空格 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +123,30 @@
 				0DC89E34213BC4E5006BE658 /* main.cpp */,
 			);
 			path = "剑指offer习题";
+			sourceTree = "<group>";
+		};
+		0DC89E40213C0E81006BE658 /* 面3-数组中重复数字 */ = {
+			isa = PBXGroup;
+			children = (
+				0DC89E41213C0E81006BE658 /* main.cpp */,
+			);
+			path = "面3-数组中重复数字";
+			sourceTree = "<group>";
+		};
+		0DC89E4B213C1CA9006BE658 /* 面4-二维数组中的查找 */ = {
+			isa = PBXGroup;
+			children = (
+				0DC89E4C213C1CA9006BE658 /* main.cpp */,
+			);
+			path = "面4-二维数组中的查找";
+			sourceTree = "<group>";
+		};
+		0DC89E56213C2C16006BE658 /* 面5-替换空格 */ = {
+			isa = PBXGroup;
+			children = (
+				0DC89E57213C2C16006BE658 /* main.cpp */,
+			);
+			path = "面5-替换空格";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +169,57 @@
 			productReference = 0DC89E31213BC4E5006BE658 /* 剑指offer习题 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0DC89E3E213C0E81006BE658 /* 面3-数组中重复数字 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC89E43213C0E81006BE658 /* Build configuration list for PBXNativeTarget "面3-数组中重复数字" */;
+			buildPhases = (
+				0DC89E3B213C0E81006BE658 /* Sources */,
+				0DC89E3C213C0E81006BE658 /* Frameworks */,
+				0DC89E3D213C0E81006BE658 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "面3-数组中重复数字";
+			productName = "面3-数组中重复数字";
+			productReference = 0DC89E3F213C0E81006BE658 /* 面3-数组中重复数字 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0DC89E49213C1CA9006BE658 /* 面4-二维数组中的查找 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC89E4E213C1CA9006BE658 /* Build configuration list for PBXNativeTarget "面4-二维数组中的查找" */;
+			buildPhases = (
+				0DC89E46213C1CA9006BE658 /* Sources */,
+				0DC89E47213C1CA9006BE658 /* Frameworks */,
+				0DC89E48213C1CA9006BE658 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "面4-二维数组中的查找";
+			productName = "面4-二维数组中的查找";
+			productReference = 0DC89E4A213C1CA9006BE658 /* 面4-二维数组中的查找 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0DC89E54213C2C16006BE658 /* 面5-替换空格 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC89E59213C2C16006BE658 /* Build configuration list for PBXNativeTarget "面5-替换空格" */;
+			buildPhases = (
+				0DC89E51213C2C16006BE658 /* Sources */,
+				0DC89E52213C2C16006BE658 /* Frameworks */,
+				0DC89E53213C2C16006BE658 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "面5-替换空格";
+			productName = "面5-替换空格";
+			productReference = 0DC89E55213C2C16006BE658 /* 面5-替换空格 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +230,15 @@
 				ORGANIZATIONNAME = "Vic Wan";
 				TargetAttributes = {
 					0DC89E30213BC4E5006BE658 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					0DC89E3E213C0E81006BE658 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					0DC89E49213C1CA9006BE658 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					0DC89E54213C2C16006BE658 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -109,6 +256,9 @@
 			projectRoot = "";
 			targets = (
 				0DC89E30213BC4E5006BE658 /* 剑指offer习题 */,
+				0DC89E3E213C0E81006BE658 /* 面3-数组中重复数字 */,
+				0DC89E49213C1CA9006BE658 /* 面4-二维数组中的查找 */,
+				0DC89E54213C2C16006BE658 /* 面5-替换空格 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +269,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC89E35213BC4E5006BE658 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC89E3B213C0E81006BE658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC89E42213C0E81006BE658 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC89E46213C1CA9006BE658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC89E4D213C1CA9006BE658 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC89E51213C2C16006BE658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC89E58213C2C16006BE658 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +428,60 @@
 			};
 			name = Release;
 		};
+		0DC89E44213C0E81006BE658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DC89E45213C0E81006BE658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DC89E4F213C1CA9006BE658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DC89E50213C1CA9006BE658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DC89E5A213C2C16006BE658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DC89E5B213C2C16006BE658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -271,6 +499,33 @@
 			buildConfigurations = (
 				0DC89E39213BC4E5006BE658 /* Debug */,
 				0DC89E3A213BC4E5006BE658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC89E43213C0E81006BE658 /* Build configuration list for PBXNativeTarget "面3-数组中重复数字" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC89E44213C0E81006BE658 /* Debug */,
+				0DC89E45213C0E81006BE658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC89E4E213C1CA9006BE658 /* Build configuration list for PBXNativeTarget "面4-二维数组中的查找" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC89E4F213C1CA9006BE658 /* Debug */,
+				0DC89E50213C1CA9006BE658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC89E59213C2C16006BE658 /* Build configuration list for PBXNativeTarget "面5-替换空格" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC89E5A213C2C16006BE658 /* Debug */,
+				0DC89E5B213C2C16006BE658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
