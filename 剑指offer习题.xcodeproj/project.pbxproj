@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DB4C0B0213D830000F25BE0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4C0AF213D830000F25BE0 /* main.cpp */; };
 		0DC89E35213BC4E5006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E34213BC4E5006BE658 /* main.cpp */; };
 		0DC89E42213C0E81006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E41213C0E81006BE658 /* main.cpp */; };
 		0DC89E4D213C1CA9006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E4C213C1CA9006BE658 /* main.cpp */; };
@@ -17,6 +18,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0DB4C0AB213D830000F25BE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0DC89E2F213BC4E5006BE658 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,6 +93,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0DB4C0AD213D830000F25BE0 /* 面8-二叉树的下一个节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面8-二叉树的下一个节点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB4C0AF213D830000F25BE0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0DC89E31213BC4E5006BE658 /* 剑指offer习题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指offer习题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC89E34213BC4E5006BE658 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0DC89E3F213C0E81006BE658 /* 面3-数组中重复数字 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面3-数组中重复数字"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +114,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0DB4C0AA213D830000F25BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DC89E2E213BC4E5006BE658 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +173,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DB4C0AE213D830000F25BE0 /* 面8-二叉树的下一个节点 */ = {
+			isa = PBXGroup;
+			children = (
+				0DB4C0AF213D830000F25BE0 /* main.cpp */,
+			);
+			path = "面8-二叉树的下一个节点";
+			sourceTree = "<group>";
+		};
 		0DC89E28213BC4E5006BE658 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +191,7 @@
 				0DC89E56213C2C16006BE658 /* 面5-替换空格 */,
 				3D59C7D7213CCA0000DE8075 /* 面6-从尾到头打印链表 */,
 				3D59C7E7213CF3B800DE8075 /* ⭐️ 面7-重建二叉树 */,
+				0DB4C0AE213D830000F25BE0 /* 面8-二叉树的下一个节点 */,
 				3D59C7F5213D386600DE8075 /* 面9-用两个栈实现队列 */,
 				0DC89E32213BC4E5006BE658 /* Products */,
 			);
@@ -179,6 +207,7 @@
 				3D59C7D6213CCA0000DE8075 /* 面6-从尾到头打印链表 */,
 				3D59C7E6213CF3B800DE8075 /* 面7-重建二叉树 */,
 				3D59C7F4213D386600DE8075 /* 面9-用两个栈实现队列 */,
+				0DB4C0AD213D830000F25BE0 /* 面8-二叉树的下一个节点 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,6 +280,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0DB4C0AC213D830000F25BE0 /* 面8-二叉树的下一个节点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB4C0B3213D830000F25BE0 /* Build configuration list for PBXNativeTarget "面8-二叉树的下一个节点" */;
+			buildPhases = (
+				0DB4C0A9213D830000F25BE0 /* Sources */,
+				0DB4C0AA213D830000F25BE0 /* Frameworks */,
+				0DB4C0AB213D830000F25BE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "面8-二叉树的下一个节点";
+			productName = "面8-二叉树的下一个节点";
+			productReference = 0DB4C0AD213D830000F25BE0 /* 面8-二叉树的下一个节点 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0DC89E30213BC4E5006BE658 /* 剑指offer习题 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DC89E38213BC4E5006BE658 /* Build configuration list for PBXNativeTarget "剑指offer习题" */;
@@ -379,6 +425,9 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Vic Wan";
 				TargetAttributes = {
+					0DB4C0AC213D830000F25BE0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 					0DC89E30213BC4E5006BE658 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -420,12 +469,21 @@
 				0DC89E54213C2C16006BE658 /* 面5-替换空格 */,
 				3D59C7D5213CCA0000DE8075 /* 面6-从尾到头打印链表 */,
 				3D59C7E5213CF3B800DE8075 /* 面7-重建二叉树 */,
+				0DB4C0AC213D830000F25BE0 /* 面8-二叉树的下一个节点 */,
 				3D59C7F3213D386600DE8075 /* 面9-用两个栈实现队列 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0DB4C0A9213D830000F25BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB4C0B0213D830000F25BE0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DC89E2D213BC4E5006BE658 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,6 +543,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0DB4C0B1213D830000F25BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DB4C0B2213D830000F25BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0DC89E36213BC4E5006BE658 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -731,6 +807,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0DB4C0B3213D830000F25BE0 /* Build configuration list for PBXNativeTarget "面8-二叉树的下一个节点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB4C0B1213D830000F25BE0 /* Debug */,
+				0DB4C0B2213D830000F25BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0DC89E2C213BC4E5006BE658 /* Build configuration list for PBXProject "剑指offer习题" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
