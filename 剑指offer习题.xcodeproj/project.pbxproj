@@ -13,6 +13,7 @@
 		0DC89E58213C2C16006BE658 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC89E57213C2C16006BE658 /* main.cpp */; };
 		3D59C7D9213CCA0000DE8075 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D59C7D8213CCA0000DE8075 /* main.cpp */; };
 		3D59C7E9213CF3B800DE8075 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D59C7E8213CF3B800DE8075 /* main.cpp */; };
+		3D59C7F7213D386600DE8075 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D59C7F6213D386600DE8075 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3D59C7F2213D386600DE8075 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +97,8 @@
 		3D59C7E6213CF3B800DE8075 /* 面7-重建二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面7-重建二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D59C7E8213CF3B800DE8075 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3D59C7EE213D099F00DE8075 /* BinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTree.hpp; sourceTree = "<group>"; };
+		3D59C7F4213D386600DE8075 /* 面9-用两个栈实现队列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "面9-用两个栈实现队列"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D59C7F6213D386600DE8075 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +144,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D59C7F1213D386600DE8075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -145,6 +164,7 @@
 				0DC89E56213C2C16006BE658 /* 面5-替换空格 */,
 				3D59C7D7213CCA0000DE8075 /* 面6-从尾到头打印链表 */,
 				3D59C7E7213CF3B800DE8075 /* ⭐️ 面7-重建二叉树 */,
+				3D59C7F5213D386600DE8075 /* 面9-用两个栈实现队列 */,
 				0DC89E32213BC4E5006BE658 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +178,7 @@
 				0DC89E55213C2C16006BE658 /* 面5-替换空格 */,
 				3D59C7D6213CCA0000DE8075 /* 面6-从尾到头打印链表 */,
 				3D59C7E6213CF3B800DE8075 /* 面7-重建二叉树 */,
+				3D59C7F4213D386600DE8075 /* 面9-用两个栈实现队列 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +238,14 @@
 				3D59C7E8213CF3B800DE8075 /* main.cpp */,
 			);
 			path = "⭐️ 面7-重建二叉树";
+			sourceTree = "<group>";
+		};
+		3D59C7F5213D386600DE8075 /* 面9-用两个栈实现队列 */ = {
+			isa = PBXGroup;
+			children = (
+				3D59C7F6213D386600DE8075 /* main.cpp */,
+			);
+			path = "面9-用两个栈实现队列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +353,23 @@
 			productReference = 3D59C7E6213CF3B800DE8075 /* 面7-重建二叉树 */;
 			productType = "com.apple.product-type.tool";
 		};
+		3D59C7F3213D386600DE8075 /* 面9-用两个栈实现队列 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D59C7F8213D386600DE8075 /* Build configuration list for PBXNativeTarget "面9-用两个栈实现队列" */;
+			buildPhases = (
+				3D59C7F0213D386600DE8075 /* Sources */,
+				3D59C7F1213D386600DE8075 /* Frameworks */,
+				3D59C7F2213D386600DE8075 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "面9-用两个栈实现队列";
+			productName = "面9-用两个栈实现队列";
+			productReference = 3D59C7F4213D386600DE8075 /* 面9-用两个栈实现队列 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -351,6 +397,9 @@
 					3D59C7E5213CF3B800DE8075 = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					3D59C7F3213D386600DE8075 = {
+						CreatedOnToolsVersion = 10.0;
+					};
 				};
 			};
 			buildConfigurationList = 0DC89E2C213BC4E5006BE658 /* Build configuration list for PBXProject "剑指offer习题" */;
@@ -371,6 +420,7 @@
 				0DC89E54213C2C16006BE658 /* 面5-替换空格 */,
 				3D59C7D5213CCA0000DE8075 /* 面6-从尾到头打印链表 */,
 				3D59C7E5213CF3B800DE8075 /* 面7-重建二叉树 */,
+				3D59C7F3213D386600DE8075 /* 面9-用两个栈实现队列 */,
 			);
 		};
 /* End PBXProject section */
@@ -421,6 +471,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D59C7E9213CF3B800DE8075 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59C7F0213D386600DE8075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D59C7F7213D386600DE8075 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +708,26 @@
 			};
 			name = Release;
 		};
+		3D59C7F9213D386600DE8075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D59C7FA213D386600DE8075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 389BMU82Q2;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -712,6 +790,15 @@
 			buildConfigurations = (
 				3D59C7EB213CF3B800DE8075 /* Debug */,
 				3D59C7EC213CF3B800DE8075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D59C7F8213D386600DE8075 /* Build configuration list for PBXNativeTarget "面9-用两个栈实现队列" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D59C7F9213D386600DE8075 /* Debug */,
+				3D59C7FA213D386600DE8075 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
